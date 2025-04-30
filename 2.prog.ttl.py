@@ -1,0 +1,13 @@
+import turtle
+anms=turtle.Turtle()
+anms.color("red","yellow")
+anms.begin_fill()
+anms.forward(50)
+anms.left(12)
+anms.forward(20)
+anms.left(9)
+anms.forward(40)
+anms.left(40)
+anms.forward(90)
+anms.end_fill()
+turtle.mainloop()

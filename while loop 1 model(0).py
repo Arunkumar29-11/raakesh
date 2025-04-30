@@ -1,0 +1,9 @@
+i=8
+while(i<=9):
+    print("arun")
+    i=i+1
+    print(i)
+if(i<11):
+    print("apple")
+else:
+    print("bat")

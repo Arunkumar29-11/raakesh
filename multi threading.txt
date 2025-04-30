@@ -1,0 +1,19 @@
+from time import sleep
+from threading import*
+class hellow(Thread):
+    def run (self):
+        for i in range(5):
+            print("hellow")
+            sleep(5)
+class hi(Thread):
+    def run(self):
+        for i in range(5):
+            print("hi")
+            sleep (1)
+t1=hellow()
+t2=hi()
+t1.start()
+sleep(5)
+t2.start()
+print("bye")
+        
